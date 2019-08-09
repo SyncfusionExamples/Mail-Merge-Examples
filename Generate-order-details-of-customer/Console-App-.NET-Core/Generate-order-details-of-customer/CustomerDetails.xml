@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerDetails>
+  <Customers>
+    <CustomerName>Paul Henriot</CustomerName>
+    <Address>59 rue de l'Abbaye</Address>
+    <City>Reims</City>
+    <PostalCode>51100</PostalCode>
+    <Country>France</Country>
+    <Phone>26.47.15.10</Phone>
+    <Orders>
+      <CustomerName>Paul Henriot</CustomerName>
+      <OrderID>10248</OrderID>
+      <OrderDate>07/04/2018</OrderDate>
+      <ExpectedDeliveryDate>08/01/2018</ExpectedDeliveryDate>
+      <ShippedDate>07/16/2018</ShippedDate>
+      <Products>
+        <OrderID>10248</OrderID>
+        <Product>Queso Cabrales</Product>
+        <UnitPrice>$14.00</UnitPrice>
+        <Quantity>12</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10248</OrderID>
+        <Product>Singaporean Hokkien Fried Mee</Product>
+        <UnitPrice>$9.80</UnitPrice>
+        <Quantity>10</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10248</OrderID>
+        <Product>Mozzarella di Giovanni</Product>
+        <UnitPrice>$34.80</UnitPrice>
+        <Quantity>5</Quantity>
+      </Products>
+    </Orders>
+    <Orders>
+      <CustomerName>Paul Henriot</CustomerName>
+      <OrderID>10274</OrderID>
+      <OrderDate>08/06/2018</OrderDate>
+      <ExpectedDeliveryDate>09/03/2018</ExpectedDeliveryDate>
+      <ShippedDate>08/16/2018</ShippedDate>
+      <Products>
+        <OrderID>10274</OrderID>
+        <Product>Fløtemysost</Product>
+        <UnitPrice>$17.20</UnitPrice>
+        <Quantity>20</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10274</OrderID>
+        <Product>Mozzarella di Giovanni</Product>
+        <UnitPrice>$27.80</UnitPrice>
+        <Quantity>7</Quantity>
+      </Products>
+    </Orders>
+    <Orders>
+      <CustomerName>Paul Henriot</CustomerName>
+      <OrderID>10295</OrderID>
+      <OrderDate>09/02/2018</OrderDate>
+      <ExpectedDeliveryDate>09/30/2018</ExpectedDeliveryDate>
+      <ShippedDate>09/10/2018</ShippedDate>
+      <Products>
+        <OrderID>10295</OrderID>
+        <Product>Gnocchi di nonna Alice</Product>
+        <UnitPrice>$30.40</UnitPrice>
+        <Quantity>4</Quantity>
+      </Products>
+    </Orders>
+  </Customers>
+  <Customers>
+    <CustomerName>Maria Anders</CustomerName>
+    <Address>Obere Str. 57</Address>
+    <City>Berlin</City>
+    <PostalCode>12209</PostalCode>
+    <Country>Germany</Country>
+    <Phone>030-0074321</Phone>
+    <Orders>
+      <CustomerName>Maria Anders</CustomerName>
+      <OrderID>10643</OrderID>
+      <OrderDate>08/25/2018</OrderDate>
+      <ExpectedDeliveryDate>09/22/2018</ExpectedDeliveryDate>
+      <ShippedDate>09/02/2018</ShippedDate>
+      <Products>
+        <OrderID>10643</OrderID>
+        <Product>Rössle Sauerkraut</Product>
+        <UnitPrice>$45.60</UnitPrice>
+        <Quantity>15</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10643</OrderID>
+        <Product>Chartreuse verte</Product>
+        <UnitPrice>$18.00</UnitPrice>
+        <Quantity>21</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10643</OrderID>
+        <Product>Spegesild</Product>
+        <UnitPrice>$12.00</UnitPrice>
+        <Quantity>2</Quantity>
+      </Products>
+    </Orders>
+    <Orders>
+      <CustomerName>Maria Anders</CustomerName>
+      <OrderID>10702</OrderID>
+      <OrderDate>10/13/2018</OrderDate>
+      <ExpectedDeliveryDate>11/24/2018</ExpectedDeliveryDate>
+      <ShippedDate>10/21/2018</ShippedDate>
+      <Products>
+        <OrderID>10702</OrderID>
+        <Product>Aniseed Syrup</Product>
+        <UnitPrice>$10.00</UnitPrice>
+        <Quantity>6</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10702</OrderID>
+        <Product>Lakkalikööri</Product>
+        <UnitPrice>$18.00</UnitPrice>
+        <Quantity>15</Quantity>
+      </Products>
+    </Orders>
+  </Customers>
+  <Customers>
+    <CustomerName>Pedro Afonso</CustomerName>
+    <Address>Av. dos Lusíadas, 23</Address>
+    <City>São Paulo</City>
+    <PostalCode>05432-043</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-7647</Phone>
+    <Orders>
+      <CustomerName>Pedro Afonso</CustomerName>
+      <OrderID>10290</OrderID>
+      <OrderDate>08/27/2018</OrderDate>
+      <ExpectedDeliveryDate>09/24/2018</ExpectedDeliveryDate>
+      <ShippedDate>09/03/2018</ShippedDate>
+      <Products>
+        <OrderID>10290</OrderID>
+        <Product>Chef Anton's Gumbo Mix</Product>
+        <UnitPrice>$17.00</UnitPrice>
+        <Quantity>20</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10290</OrderID>
+        <Product>Thüringer Rostbratwurst</Product>
+        <UnitPrice>$99.00</UnitPrice>
+        <Quantity>15</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10290</OrderID>
+        <Product>Maxilaku</Product>
+        <UnitPrice>$16.00</UnitPrice>
+        <Quantity>15</Quantity>
+      </Products>
+    </Orders>
+    <Orders>
+      <CustomerName>Pedro Afonso</CustomerName>
+      <OrderID>10969</OrderID>
+      <OrderDate>03/23/2019</OrderDate>
+      <ExpectedDeliveryDate>04/20/2019</ExpectedDeliveryDate>
+      <ShippedDate>03/30/2019</ShippedDate>
+      <Products>
+        <OrderID>10969</OrderID>
+        <Product>Spegesild</Product>
+        <UnitPrice>$12.00</UnitPrice>
+        <Quantity>9</Quantity>
+      </Products>
+    </Orders>
+  </Customers>
+  <Customers>
+    <CustomerName>Alexander Feuer</CustomerName>
+    <Address>Heerstr. 22</Address>
+    <City>Leipzig</City>
+    <PostalCode>04179</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0342-023176</Phone>
+    <Orders>
+      <CustomerName>Alexander Feuer</CustomerName>
+      <OrderID>10277</OrderID>
+      <OrderDate>08/09/2018</OrderDate>
+      <ExpectedDeliveryDate>09/06/2018</ExpectedDeliveryDate>
+      <ShippedDate>08/13/2018</ShippedDate>
+      <Products>
+        <OrderID>10277</OrderID>
+        <Product>Rössle Sauerkraut</Product>
+        <UnitPrice>$36.40</UnitPrice>
+        <Quantity>20</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10277</OrderID>
+        <Product>Tarte au sucre</Product>
+        <UnitPrice>$39.40</UnitPrice>
+        <Quantity>12</Quantity>
+      </Products>
+    </Orders>
+  </Customers>
+  <Customers>
+    <CustomerName>Sergio Gutiérrez</CustomerName>
+    <Address>Av. del Libertador 900</Address>
+    <City>Buenos Aires</City>
+    <PostalCode>1010</PostalCode>
+    <Country>Argentina</Country>
+    <Phone>(1) 123-5555</Phone>
+    <Orders>
+      <CustomerName>Sergio Gutiérrez</CustomerName>
+      <OrderID>10716</OrderID>
+      <OrderDate>10/24/2018</OrderDate>
+      <ExpectedDeliveryDate>11/21/2018</ExpectedDeliveryDate>
+      <ShippedDate>10/27/2018</ShippedDate>
+      <Products>
+        <OrderID>10716</OrderID>
+        <Product>Sir Rodney's Scones</Product>
+        <UnitPrice>$10.00</UnitPrice>
+        <Quantity>5</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10716</OrderID>
+        <Product>Manjimup Dried Apples</Product>
+        <UnitPrice>$53.00</UnitPrice>
+        <Quantity>7</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10716</OrderID>
+        <Product>Sirop d'érable</Product>
+        <UnitPrice>$28.50</UnitPrice>
+        <Quantity>10</Quantity>
+      </Products>
+    </Orders>
+    <Orders>
+      <CustomerName>Sergio Gutiérrez</CustomerName>
+      <OrderID>10916</OrderID>
+      <OrderDate>02/27/2019</OrderDate>
+      <ExpectedDeliveryDate>03/27/2019</ExpectedDeliveryDate>
+      <ShippedDate>03/09/2019</ShippedDate>
+      <Products>
+        <OrderID>10916</OrderID>
+        <Product>Pavlova</Product>
+        <UnitPrice>$17.45</UnitPrice>
+        <Quantity>6</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10916</OrderID>
+        <Product>Mascarpone Fabioli</Product>
+        <UnitPrice>$32.00</UnitPrice>
+        <Quantity>6</Quantity>
+      </Products>
+      <Products>
+        <OrderID>10916</OrderID>
+        <Product>Ravioli Angelo</Product>
+        <UnitPrice>$19.50</UnitPrice>
+        <Quantity>20</Quantity>
+      </Products>
+    </Orders>
+  </Customers>
+</CustomerDetails>

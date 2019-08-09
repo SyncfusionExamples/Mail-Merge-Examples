@@ -1,0 +1,64 @@
+{
+  "Customers": [
+    {
+      "CustomerName": "Paul Henriot",
+      "Address": "59 rue de l'Abbaye",
+      "City": "Reims",
+      "PostalCode": "51100",
+      "Country": "France",
+      "Phone": "26.47.15.10",
+      "OrderID": "10295",
+      "OrderDate": "09/02/2018",
+      "ExpectedDeliveryDate": "09/30/2018",
+      "ShippedDate": "09/10/2018"
+    },
+    {
+      "CustomerName": "Maria Anders",
+      "Address": "Obere Str. 57",
+      "City": "Berlin",
+      "PostalCode": "12209",
+      "Country": "Germany",
+      "Phone": "030-0074321",
+      "OrderID": "10702",
+      "OrderDate": "10/13/2018",
+      "ExpectedDeliveryDate": "11/24/2018",
+      "ShippedDate": "10/21/2018"
+    },
+    {
+      "CustomerName": "Pedro Afonso",
+      "Address": "Av. dos Lusíadas, 23",
+      "City": "São Paulo",
+      "PostalCode": "05432-043",
+      "Country": "Brazil",
+      "Phone": "(11) 555-7647",
+      "OrderID": "10969",
+      "OrderDate": "03/23/2019",
+      "ExpectedDeliveryDate": "04/20/2019",
+      "ShippedDate": "03/30/2019"
+    },
+    {
+      "CustomerName": "Alexander Feuer",
+      "Address": "Heerstr. 22",
+      "City": "Leipzig",
+      "PostalCode": "04179",
+      "Country": "Germany",
+      "Phone": "0342-023176",
+      "OrderID": "10277",
+      "OrderDate": "08/09/2018",
+      "ExpectedDeliveryDate": "09/06/2018",
+      "ShippedDate": "08/13/2018"
+    },
+    {
+      "CustomerName": "Sergio Gutiérrez",
+      "Address": "Av. del Libertador 900",
+      "City": "Buenos Aires",
+      "PostalCode": "1010",
+      "Country": "Argentina",
+      "Phone": "(1) 123-5555",
+      "OrderID": "10916",
+      "OrderDate": "02/27/2019",
+      "ExpectedDeliveryDate": "03/27/2019",
+      "ShippedDate": "03/09/2019"
+    }
+  ]
+}
