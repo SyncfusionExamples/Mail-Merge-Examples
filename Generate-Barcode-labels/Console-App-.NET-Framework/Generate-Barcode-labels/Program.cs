@@ -12,7 +12,7 @@ namespace Generate_Barcode_labels
         static void Main(string[] args)
         {
             //Opens the template document 
-			WordDocument document = new WordDocument(Path.GetFullPath(@"../../Template.docx"));
+            WordDocument document = new WordDocument(Path.GetFullPath(@"../../Template.docx"));
             //Creates mail merge events handler for image fields
             document.MailMerge.MergeImageField += new MergeImageFieldEventHandler(InsertBarcode);
             //Gets data to perform mail merge
@@ -22,7 +22,7 @@ namespace Generate_Barcode_labels
 
             //Saves and closes the Word document instance
             document.Save(Path.GetFullPath(@"../../Sample.docx"));
-			document.Close();
+            document.Close();
         }
 
         #region Helper methods
@@ -32,7 +32,7 @@ namespace Generate_Barcode_labels
         private static void InsertBarcode(object sender, MergeImageFieldEventArgs args)
         {
             if (args.FieldName == "Barcode")
-            {                
+            {
                 //Generates barcode image for field value.
                 Image barcodeImage = GenerateBarcodeImage(args.FieldValue.ToString());
                 //Sets barcode image for merge field
@@ -62,14 +62,14 @@ namespace Generate_Barcode_labels
         /// <returns></returns>
         private static DataTable GetDataTable()
         {
-            // List of products name.        
+            // List of products name.
             string[] products = { "Apple Juice", "Grape Juice", "Hot Soup", "Tender Coconut", "Vennila", "Strawberry", "Cherry", "Cone",
-            "Butter", "Milk", "Cheese", "Salt", "Honey", "Soap", "Chocolate", "Edible Oil", "Spices", "Paneer", "Curd", "Bread", "Olive oil", "Vinegar", "Sports Drinks",
+                "Butter", "Milk", "Cheese", "Salt", "Honey", "Soap", "Chocolate", "Edible Oil", "Spices", "Paneer", "Curd", "Bread", "Olive oil", "Vinegar", "Sports Drinks",
                 "Vegetable Juice", "Sugar", "Flour", "Jam", "Cake", "Brownies", "Donuts", "Egg", "Tooth Brush", "Talcum powder", "Detergent Soap", "Room Spray", "Tooth paste"};
 
             DataTable table = new DataTable("Product_PriceList");
 
-            // Add fields to the Product_PriceList table.  
+            // Add fields to the Product_PriceList table.
             table.Columns.Add("ProductName");
             table.Columns.Add("Price");
             table.Columns.Add("Barcode");
@@ -85,7 +85,7 @@ namespace Generate_Barcode_labels
                 {
                     case "Apple Juice":
                         row["Price"] = "$12.00";
-                        break;                        
+                        break;
                     case "Grape Juice":
                     case "Milk":
                         row["Price"] = "$15.00";
@@ -102,17 +102,17 @@ namespace Generate_Barcode_labels
                         break;
                     case "Strawberry":
                     case "Butter":
-                        row["Price"] = "$18.00";                       
+                        row["Price"] = "$18.00";
                         break;
                     case "Cherry":
                     case "Salt":
-                        row["Price"] = "$25.00";                        
+                        row["Price"] = "$25.00";
                         break;
                     default:
-                        row["Price"] = "$20.00";                       
+                        row["Price"] = "$20.00";
                         break;
-                }               
-                //Add barcode text                
+                }
+                //Add barcode text
                 row["Barcode"] = Id.ToString();
                 table.Rows.Add(row);
                 Id++;

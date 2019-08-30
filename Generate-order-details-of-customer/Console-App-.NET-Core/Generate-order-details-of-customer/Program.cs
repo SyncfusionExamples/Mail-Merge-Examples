@@ -40,6 +40,7 @@ namespace Generate_order_details_of_customer
         static MailMergeDataTable GetRelationalData()
         {
             List<ExpandoObject> customers = new List<ExpandoObject>();
+            //Gets data from XML
             Stream xmlStream = File.OpenRead(Path.GetFullPath(@"../../../CustomerDetails.xml"));
             XmlDocument xmlDocument = new XmlDocument();
             xmlDocument.Load(xmlStream);
@@ -48,6 +49,7 @@ namespace Generate_order_details_of_customer
             ExpandoObject customer = new ExpandoObject();
             GetDataAsExpandoObject((xmlDocument as XmlNode).LastChild, ref customer);
             customers = (((customer as IDictionary<string, object>)["CustomerDetails"] as List<ExpandoObject>)[0] as IDictionary<string, object>)["Customers"] as List<ExpandoObject>;
+            //Creates an instance of "MailMergeDataTable" by specifying mail merge group name and "IEnumerable" collection
             MailMergeDataTable dataTable = new MailMergeDataTable("Customers", customers);
             return dataTable;
         }

@@ -1,10 +1,10 @@
 # Mail merge Examples
 
-This repository contains examples that illustrates how to mail merge Word documents in C# using [.NET Word library](https://www.syncfusion.com/word-framework/net/word-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) (Essential DocIO).
+This repository contains examples that illustrates how to mail merge Word documents in C# and VB.NET using Syncfusion’s [.NET Word library](https://www.syncfusion.com/word-framework/net/word-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) (Essential DocIO) without Microsoft Word or Office interop dependencies.
 
-# Mail merge
+# Mail merge in Word documents
 
-Mail merge is a process of merging data (replacing merge fields) from a data source in a Word document template.
+Mail merge is a process of merging data (replacing merge fields) from a data source into the template Word document.
 
 The Syncfusion [Word library](https://www.syncfusion.com/word-framework/net/word-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) (Essential DocIO) has a powerful [mail merge](https://www.syncfusion.com/word-framework/net/word-library/mail-merge?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) API to generate personalized reports like letters, pre-addressed envelopes, address labels, invoice, payroll, and more. It performs mail merge faster in a batch process without Microsoft Word or Office interop dependencies. The generated reports can be saved as a Word document, PDF, image, HTML, and more.
 
@@ -30,47 +30,47 @@ NuGet is the one of the easiest ways to download and install Syncfusion [Word li
 
 # Key Features
 
-- [Envelopes for mailing](Create-Envelopes-for-mailing/) - Create envelopes for mailings to the list of recipients.
+- [Envelopes for mailing in C#](Create-Envelopes-for-mailing/) - Create envelopes for mailings to the list of recipients.
 
-- [Generate multiple Word documents](Generate-multiple-Word-documents/) - Create a batch of personalized letters as individual document for each record.
+- [Generate multiple Word documents in C#](Generate-multiple-Word-documents/) - Create a batch of personalized letters as individual document for each record.
 
-- [Create and send email messages](Create-and-send-email-messages/) - Create and send email messages by converting merged document to HTML.
+- [Create and send email messages in C#](Create-and-send-email-messages/) - Create and send email messages by converting merged document to HTML.
 
-- [Personalized letters](Create-personalized-letter/) - Create personalized letters for selected recipient from the mailing list.
+- [Personalized letters in C#](Create-personalized-letter/) - Create personalized letters for selected recipient from the mailing list.
 
-- [Order details of a customer](Generate-order-details-of-customer/) - Generate order details of a customer using nested mail merge.
+- [Order details of a customer in C#](Generate-order-details-of-customer/) - Generate order details of a customer using nested mail merge.
 
-- [Barcode labels](Generate-Barcode-labels/) - Generate a barcode labels for grocery store.
+- [Barcode labels in C#](Generate-Barcode-labels/) - Generate a barcode labels for grocery store.
 
-- [Mail merge using Excel](Group-Mail-merge-using-Excel/) - Import data from Excel Spreadsheet and generate a report.
+- [Mail merge using Excel Spreadsheet in C#](Group-Mail-merge-using-Excel/) - Import data from Excel Spreadsheet and generate a report.
 
-- [Product catalog](Product-catalog/) - Generate a product catalog and formatting the merged text.
+- [Product catalog in C#](Product-catalog/) - Generate a product catalog and formatting the merged text.
 
 # Screenshots
 
 **Envelopes for mailing**
 
 <p align="center"> 
-<img src="Create-Envelopes-for-mailing/Images/Envelopes-for-mailing-output.png" alt="Envelopes-for-mailing"/> 
+<img src="Create-Envelopes-for-mailing/Images/Envelopes-for-mailing-output.png" alt="Envelopes-for-mailing in C#"/> 
 </p>
 
 **Batch of personalized letters**
 
 <p align="center"> 
-<img src="Generate-multiple-Word-documents/Images/Generate-multiple-Word-documents-output.png" alt="Generate-multiple-Word-documents"/> 
+<img src="Generate-multiple-Word-documents/Images/Generate-multiple-Word-documents-output.png" alt="Generate-multiple-Word-documents in C#"/> 
 </p>
 
 **Barcode labels**
 
 <p align="center"> 
-<img src="Generate-Barcode-labels/Images/Generate-Barcode-labels-output.png" alt="Barcode-labels"/> 
+<img src="Generate-Barcode-labels/Images/Generate-Barcode-labels-output.png" alt="Barcode-labels in C#"/> 
 </p>
 
 # Resources
 
 - **Product page:** [Syncfusion Word Framework](https://www.syncfusion.com/word-framework/net?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples)
 
-- **Documentation:** [Mail merge using Syncfusion Word library](https://help.syncfusion.com/file-formats/docio/working-with-mailmerge?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples)
+- **Documentation:** [Mail merge using Syncfusion Word library](https://help.syncfusion.com/file-formats/docio/working-with-mail-merge?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples)
 
 - **Online demo:** [Essential DocIO-Online demos](https://www.syncfusion.com/demos/fileformats/word-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples)
 

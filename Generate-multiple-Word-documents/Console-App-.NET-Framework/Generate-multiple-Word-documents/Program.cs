@@ -48,7 +48,7 @@ namespace Generate_multiple_Word_documents
             //Creates new DataTable instance 
             DataTable table = new DataTable();
             //Loads the database
-            OleDbConnection conn = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + @"../../Northwind.mdb");
+            OleDbConnection conn = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + @"../../CustomerDetails.mdb");
             //Opens the database connection
             conn.Open();
             OleDbDataAdapter adapter = new OleDbDataAdapter("Select * from Customers", conn);
