@@ -36,9 +36,9 @@ namespace Replace_Merge_field_with_HTML
                 {
                     string text = args.FieldValue as string;
                     WParagraph paragraph = args.CurrentMergeField.OwnerParagraph;
-                    int pI = paragraph.OwnerTextBody.ChildEntities.IndexOf(args.CurrentMergeField.OwnerParagraph);
-                    int pII = paragraph.ChildEntities.IndexOf(args.CurrentMergeField);
-                    paragraph.OwnerTextBody.InsertXHTML(args.FieldValue.ToString(), pI, pII);
+                    int paraIndex = paragraph.OwnerTextBody.ChildEntities.IndexOf(paragraph);
+                    int fieldIndex = paragraph.ChildEntities.IndexOf(args.CurrentMergeField);
+                    paragraph.OwnerTextBody.InsertXHTML(args.FieldValue.ToString(), paraIndex, fieldIndex);
                     args.Text = string.Empty;
                 }
             }
