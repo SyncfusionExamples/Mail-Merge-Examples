@@ -46,6 +46,8 @@ NuGet is the one of the easiest ways to download and install Syncfusion [Word li
 
 - [Product catalog in C#](Product-catalog/) - Generate a product catalog and formatting the merged text.
 
+- [Replace merge field with HTML in C#](Replace-Merge-field-with-HTML/) - Replace merge field with HTML string using mail merge.
+
 # Screenshots
 
 **Envelopes for mailing**
@@ -64,6 +66,12 @@ NuGet is the one of the easiest ways to download and install Syncfusion [Word li
 
 <p align="center"> 
 <img src="Generate-Barcode-labels/Images/Generate-Barcode-labels-output.png" alt="Barcode-labels in C#"/> 
+</p>
+
+**Replace merge field with HTML**
+
+<p align="center"> 
+<img src="Replace-Merge-field-with-HTML/Images/Replace-Merge-field-with-HTML-output.png" alt="Replace-Merge-field-with-HTML in C#"/> 
 </p>
 
 # Resources
