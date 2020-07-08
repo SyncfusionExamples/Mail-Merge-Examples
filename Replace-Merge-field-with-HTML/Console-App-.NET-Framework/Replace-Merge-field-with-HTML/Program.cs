@@ -9,16 +9,19 @@ namespace Replace_Merge_field_with_HTML
         static void Main(string[] args)
         {
             //Opens the template document
-            WordDocument document = new WordDocument(Path.GetFullPath(@"../../Template.docx"));
-            //Creates mail merge events handler to replace merge field with HTML
-            document.MailMerge.MergeField += new MergeFieldEventHandler(MergeFieldEvent);
-            //Gets data to perform mail merge
-            DataTable table = GetDataTable();
-            //Performs the mail merge
-            document.MailMerge.Execute(table);
-            //Saves and closes the Word document instance
-            document.Save(Path.GetFullPath(@"../../Sample.docx"));
-            document.Close();
+            using (WordDocument document = new WordDocument(Path.GetFullPath(@"../../Template.docx")))
+            {
+                //Creates mail merge events handler to replace merge field with HTML
+                document.MailMerge.MergeField += new MergeFieldEventHandler(MergeFieldEvent);
+                //Gets data to perform mail merge
+                DataTable table = GetDataTable();
+                //Performs the mail merge
+                document.MailMerge.Execute(table);
+                //Removes mail merge events handler
+                document.MailMerge.MergeField -= new MergeFieldEventHandler(MergeFieldEvent);
+                //Saves the Word document instance
+                document.Save(Path.GetFullPath(@"../../Sample.docx"));
+            }
             System.Diagnostics.Process.Start(Path.GetFullPath(@"../../Sample.docx"));
         }
 
