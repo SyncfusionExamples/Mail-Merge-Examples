@@ -35,13 +35,15 @@ namespace Replace_Merge_field_with_HTML
         {
             if (args.TableName.Equals("HTML"))
             {
-                if (args.FieldName.Equals("ProductList") || args.FieldName.Equals("CompanyName"))
+                if (args.FieldName.Equals("ProductList"))
                 {
                     string text = args.FieldValue as string;
                     WParagraph paragraph = args.CurrentMergeField.OwnerParagraph;
                     int paraIndex = paragraph.OwnerTextBody.ChildEntities.IndexOf(paragraph);
                     int fieldIndex = paragraph.ChildEntities.IndexOf(args.CurrentMergeField);
+                    //Appends HTML string at the specified position of the document body contents
                     paragraph.OwnerTextBody.InsertXHTML(args.FieldValue.ToString(), paraIndex, fieldIndex);
+                    //Resets the field value
                     args.Text = string.Empty;
                 }
             }
@@ -57,14 +59,14 @@ namespace Replace_Merge_field_with_HTML
             dataTable.Columns.Add("Address");
             dataTable.Columns.Add("Phone");
             dataTable.Columns.Add("ProductList");
-            dataTable.Columns.Add("CompanyName");
             DataRow datarow = dataTable.NewRow();
             dataTable.Rows.Add(datarow);
             datarow["CustomerName"] = "Nancy Davolio";
             datarow["Address"] = "59 rue de I'Abbaye, Reims 51100, France";
             datarow["Phone"] = "1-888-936-8638";
-            datarow["ProductList"] = "<html><body><div style=\"font-family:calibri;\"><ul><li>Mountain-200</li><li>Mountain-300</li><li>Road-150</li></ul></div></body></html>";
-            datarow["CompanyName"] = "<html><body><p style=\"font-family:calibri;text-align:right\"><b><font color='blue'>Adventure Works Cycles</font></b></p></body></html>";
+            //Reads HTML string from the file
+            string htmlString = File.ReadAllText(@"../../File.html");
+            datarow["ProductList"] = htmlString;
             return dataTable;
         }
         #endregion
