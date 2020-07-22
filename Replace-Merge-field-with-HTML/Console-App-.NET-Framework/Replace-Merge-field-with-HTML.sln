@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replace-Merge-field-with-HTML", "Replace-Merge-field-with-HTML\Replace-Merge-field-with-HTML.csproj", "{07622DC9-E645-42EB-ABCE-5D8FB4940A89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07622DC9-E645-42EB-ABCE-5D8FB4940A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07622DC9-E645-42EB-ABCE-5D8FB4940A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07622DC9-E645-42EB-ABCE-5D8FB4940A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07622DC9-E645-42EB-ABCE-5D8FB4940A89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0C4527C-D611-4F19-B7EF-F9C263649B0F}
+	EndGlobalSection
+EndGlobal
