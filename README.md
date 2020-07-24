@@ -48,6 +48,8 @@ NuGet is the one of the easiest ways to download and install Syncfusion [Word li
 
 - [Replace merge field with HTML in C#](Replace-Merge-field-with-HTML/) - Replace merge field with HTML string using mail merge.
 
+- [Fit the photo within text box in C#](Fit-photo-within-textbox/) - Fit the photo within the text box in the Word document using mail merge.
+
 # Screenshots
 
 **Envelopes for mailing**
@@ -72,6 +74,12 @@ NuGet is the one of the easiest ways to download and install Syncfusion [Word li
 
 <p align="center"> 
 <img src="Replace-Merge-field-with-HTML/Images/Replace-Merge-field-with-HTML-output.png" alt="Replace-Merge-field-with-HTML in C#"/> 
+</p>
+
+**Fit photo within text box**
+
+<p align="center"> 
+<img src="Fit-photo-within-textbox/Images/Fit-photo-within-textbox-output.png" alt="Fit-photo-within-textbox in C#"/> 
 </p>
 
 # Resources
