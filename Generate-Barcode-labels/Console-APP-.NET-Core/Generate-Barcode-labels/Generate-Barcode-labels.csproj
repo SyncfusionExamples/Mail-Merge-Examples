@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Generate_Barcode_labels</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.DocIO.Net.Core" Version="*" />
+    <PackageReference Include="Syncfusion.Pdf.Imaging.Net.Core" Version="*" />
+    <PackageReference Include="Syncfusion.Pdf.Net.Core" Version="*" />
+  </ItemGroup>
+
+</Project>
