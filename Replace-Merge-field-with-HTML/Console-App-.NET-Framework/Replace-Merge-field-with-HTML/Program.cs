@@ -45,12 +45,9 @@ namespace Replace_Merge_field_with_HTML
                     WParagraph paragraph = args.CurrentMergeField.OwnerParagraph;
                     //Gets the current merge field index in the current paragraph.
                     int mergeFieldIndex = paragraph.ChildEntities.IndexOf(args.CurrentMergeField);
-                    //Get the HTML 
-                    StreamReader sr = new StreamReader(@"../../File.html");
                     //Maintain HTML in collection
                     Dictionary<int, string> fieldValues = new Dictionary<int, string>();
-                    fieldValues.Add(mergeFieldIndex, sr.ReadToEnd());
-                    sr.Dispose();
+                    fieldValues.Add(mergeFieldIndex, args.FieldValue.ToString());
                     //Maintain paragraph in collection
                     paraToInsertHTML.Add(paragraph, fieldValues);
                     //Set field value as empty.
@@ -74,6 +71,9 @@ namespace Replace_Merge_field_with_HTML
             datarow["CustomerName"] = "Nancy Davolio";
             datarow["Address"] = "59 rue de I'Abbaye, Reims 51100, France";
             datarow["Phone"] = "1-888-936-8638";
+            //Reads HTML string from the file
+            string htmlString = File.ReadAllText(@"../../File.html");
+            datarow["ProductList"] = htmlString;
             return dataTable;
         }
         /// <summary>
