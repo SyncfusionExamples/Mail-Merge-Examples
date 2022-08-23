@@ -3,7 +3,7 @@ using System.IO;
 using Syncfusion.DocIO;
 using Syncfusion.DocIO.DLS;
 
-namespace Start_at_new_page
+namespace Start_each_record_on_new_page
 {
     class Program
     {

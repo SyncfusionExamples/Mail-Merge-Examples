@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Start_at_new_page</RootNamespace>
+    <RootNamespace>Start_each_record_on_new_page</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
