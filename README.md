@@ -50,6 +50,8 @@ NuGet is the one of the easiest ways to download and install Syncfusion [Word li
 
 - [Fit the photo within text box in C#](Fit-photo-within-textbox/) - Fit the photo within the text box in the Word document using mail merge.
 
+- [Start each record on a new page in C#](Start-each-record-on-new-page/) - Generate each record in new page while executing group mail merge.
+
 # Screenshots
 
 **Envelopes for mailing**
@@ -80,6 +82,12 @@ NuGet is the one of the easiest ways to download and install Syncfusion [Word li
 
 <p align="center"> 
 <img src="Fit-photo-within-textbox/Images/Fit-photo-within-textbox-output.png" alt="Fit-photo-within-textbox in C#"/> 
+</p>
+
+**Start each record on a new page**
+
+<p align="center"> 
+<img src="Start-each-record-on-new-page/Images/Start-each-record-on-new-page-output.png" alt="Start-each-record-on-new-page in C#"/> 
 </p>
 
 # Resources
