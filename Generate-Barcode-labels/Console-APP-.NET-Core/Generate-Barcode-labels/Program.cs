@@ -4,8 +4,6 @@ using Syncfusion.Pdf.Barcode;
 using Syncfusion.Pdf.Graphics;
 using System;
 using System.Data;
-using System.Drawing;
-using System.Drawing.Imaging;
 using System.IO;
 
 namespace Generate_Barcode_labels
@@ -58,11 +56,8 @@ namespace Generate_Barcode_labels
             barcode.BarHeight = 45;
             barcode.Text = barcodeText;
             //Convert the barcode to image 
-            Image barcodeImage = barcode.ToImage(new System.Drawing.SizeF(145, 45));
-            //Converts image to stream
-            MemoryStream stream = new MemoryStream();
-            barcodeImage.Save(stream, ImageFormat.Png);
-            return stream;
+            Stream imageStream = barcode.ToImage(new Syncfusion.Drawing.SizeF(145, 45));
+            return imageStream;
         }
 
         /// <summary>
