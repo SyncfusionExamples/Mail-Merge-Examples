@@ -1,6 +1,6 @@
 # Group mail merge using Excel in C#
 
-This example illustrates how to import data from Excel Spreadsheet using [Syncfusion Excel library](https://www.syncfusion.com/excel-framework/net/excel-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) (Essential XlsIO) and use that data for mail merge in the Word document using [Syncfusion Word library](https://www.syncfusion.com/word-framework/net/word-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) (Essential DocIO).
+This example illustrates how to import data from Excel Spreadsheet using [Syncfusion&reg; Excel library](https://www.syncfusion.com/excel-framework/net/excel-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) (Essential&reg; XlsIO) and use that data for mail merge in the Word document using [Syncfusion&reg; Word library](https://www.syncfusion.com/word-framework/net/word-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) (Essential&reg; DocIO).
 
 # How to run the project
 

@@ -1,6 +1,6 @@
 # Create and send email messages in C#
 
-This example shows how to create and send email messages to the recipients from JSON data by converting the mail merged Word document to HTML using [Syncfusion Word library](https://www.syncfusion.com/word-framework/net/word-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) (Essential DocIO).
+This example shows how to create and send email messages to the recipients from JSON data by converting the mail merged Word document to HTML using [Syncfusion&reg; Word library](https://www.syncfusion.com/word-framework/net/word-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) (Essential&reg; DocIO).
 
 # How to run the project
 

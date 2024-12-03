@@ -1,6 +1,6 @@
 # Generate barcode labels in C#
 
-This example shows how to generate a barcode using [Syncfusion PDF library](https://www.syncfusion.com/pdf-framework/net/pdf-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) and insert the generated barcode as an image into the Word document with [MergeImageField](https://help.syncfusion.com/cr/file-formats/Syncfusion.DocIO.Base~Syncfusion.DocIO.DLS.MailMerge~MergeImageField_EV.html) event using [Syncfusion Word library](https://www.syncfusion.com/word-framework/net/word-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) (Essential DocIO).
+This example shows how to generate a barcode using [Syncfusion&reg; PDF library](https://www.syncfusion.com/pdf-framework/net/pdf-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) and insert the generated barcode as an image into the Word document with [MergeImageField](https://help.syncfusion.com/cr/file-formats/Syncfusion.DocIO.Base~Syncfusion.DocIO.DLS.MailMerge~MergeImageField_EV.html) event using [Syncfusion&reg; Word library](https://www.syncfusion.com/word-framework/net/word-library?utm_source=github&utm_medium=listing&utm_campaign=mail-merge-examples) (Essential&reg; DocIO).
 
 # How to run the project
 
