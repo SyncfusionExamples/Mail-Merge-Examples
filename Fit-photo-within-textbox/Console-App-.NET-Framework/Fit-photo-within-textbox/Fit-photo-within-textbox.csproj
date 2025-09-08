@@ -43,6 +43,9 @@
     <Reference Include="Syncfusion.Licensing, Version=31.1462.17.0, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
       <HintPath>..\packages\Syncfusion.Licensing.31.1.17\lib\net462\Syncfusion.Licensing.dll</HintPath>
     </Reference>
+	<Reference Include="Syncfusion.Markdown, Version=31.1462.17.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Markdown.31.1.17\lib\net462\Syncfusion.Markdown.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.OfficeChart.Base, Version=31.1462.17.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>..\packages\Syncfusion.OfficeChart.Base.31.1.17\lib\net462\Syncfusion.OfficeChart.Base.dll</HintPath>
     </Reference>
